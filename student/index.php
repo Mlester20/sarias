@@ -9,14 +9,14 @@
 <body class="bg-gray-100 min-h-screen">
 
     <!-- header -->
-    <?php require 'includes/header.php'; ?>
+    <?php require '../includes/header.php'; ?>
 
     <!-- Login Card -->
     <div class="flex items-center justify-center min-h-screen px-4 py-12">
         <div class="w-full max-w-md">
             <div class="bg-white rounded-lg shadow-lg p-8">
                 <!-- Login Form -->
-                <form action="/controllers/auth/auth.php" method="POST" class="space-y-6">
+                <form action="../controllers/auth/studentAuth.php" method="POST" class="space-y-6">
                     <div>
                         <label for="username" class="block text-sm font-medium text-gray-700 mb-2">
                             Username
