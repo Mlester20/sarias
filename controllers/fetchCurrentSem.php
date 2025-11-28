@@ -4,7 +4,7 @@ require '../includes/config.php';
 $db = new Database();
 $con = $db->getConnection();
 
-$query = "SELECT current_sem FROM semester WHERE current_sem = 1 LIMIT 1";
+$query = "SELECT current_sem FROM semester LIMIT 1";
 $result = $con->query($query);
 
 if($result && $result->num_rows > 0){
