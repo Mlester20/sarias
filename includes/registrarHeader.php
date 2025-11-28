@@ -28,6 +28,9 @@
                 <a href="setSemester.php" class="block px-4 py-3 hover:bg-gray-100 border-b border-gray-200">
                     <span class="font-semibold">Settings</span>
                 </a>
+                <a href="manageCourses.php" class="block px-4 py-3 hover:bg-gray-100 border-b border-gray-200">
+                    <span class="font-semibold">Course Management</span>
+                </a>
             </div>
         </div>
         

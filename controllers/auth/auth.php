@@ -25,7 +25,8 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
                 header("Location: ../../registrar/home.php");
                 exit();
             } else {
-                header("Location: ../../index.php?error=invalid_credentials");
+                echo "<script type='text/javascript'>alert('Invalid Username or Password!');
+                document.location='../index.php'</script>";  
                 exit();
             }
         } else {
