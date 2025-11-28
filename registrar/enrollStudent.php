@@ -23,7 +23,14 @@ session_start();
     <!-- header -->
     <?php require '../includes/registrarHeader.php'; ?>
 
-
+    <!-- main content -->
+    <div class="max-w-4xl mx-auto mt-8 px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Enroll Students</h1>
+            <p class="text-gray-600">This is the enroll students page. Functionality to enroll students will be implemented here.</p>
+        </div>
+    </div>
+    
     
     <!-- js scripts -->
     <script src="../js/script.js"></script>
